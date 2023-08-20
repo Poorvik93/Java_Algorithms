@@ -14,7 +14,7 @@ class SelectionSortApp {
 			// Comparing the every element  after i th index ,so j starts from i+1
 			for(int j=i+1;j<=n;j++)
 			{
-//				Comparing and checking whether arr[j]<min. if true replace the max with arr[j] and pos with j
+//				Comparing and checking whether arr[j]<max. if true replace the max with arr[j] and pos with j
 				if(arr[j]>max)
 				{
 					 max =arr[j];
